@@ -177,6 +177,7 @@ border-radius: 20px;
     .overlay {
         padding: 10px;
         font-size: 14px;
+        height:80px;
     }
 
     .overlay h5 {
