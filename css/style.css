@@ -108,13 +108,13 @@
 
 /* Overlay height is now 40% of the card */
 .overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 40%; /* Dynamic height */
-    padding: 1rem;
-    background-color: rgba(0, 0, 72, 0.6); /* Transparent overlay */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  padding: 1rem;
+  background-color: rgba(0, 0, 72, .6); /* Transparent overlay */
 }
 
 .card-title {
