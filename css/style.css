@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gellix, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Noto Sans, Liberation Sans, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    
+  }
+
+#logo-mobile{
+    display:none ;
+  }
+
+  #logo-desktop{
+    display: flex;
+    align-items:start;
+}
+
+
+/* heri section */
+.hero {
+  background: url('your-hero-image.jpg') no-repeat center center/cover;
+  position: relative;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000048;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  padding: 50px 15px;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+.nav-indicators span {
+  border-bottom: 2px solid transparent;
+  padding-bottom: 5px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.nav-indicators span.active {
+  border-bottom: 2px solid;}
+/* hero section end */
+
+
+/* fied background  */
+.fixed-bg {
+  background: url('../images/parallax-belcan-background.webp') no-repeat center center fixed; 
+  background-size: cover;
+  height: 550px; 
+  color: white;
+  width: 100%;
+  
+}
+
+.fixed-bg2{
+  background: url('../images/fixed\ bg2.png') no-repeat center center fixed; 
+  background-size: cover;
+  height: 570px; 
+  color: white;
+  width: 100%;
+}
+
+.text-sky-blue{
+  color:#26efe9;
+}
+
+.text-blue{
+  color: #000048;
+}
+
+/* case studies */
+.case-study-bg{
+height: 350px;
+width: 600px;
+border-radius: 20px;
+
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+  color: white;
+  border: none;
+}
+
+.card img {
+  filter: brightness(0.6);
+  height: 350px;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  padding: 1rem;
+  background-color: rgba(0, 0, 72, .6); /* Transparent overlay */
+}
+
+.height-input{
+  height: 60px;
+  border-radius: 15px;
+  background-color: #f5f5f2;
+}
+
+
+
+@media screen and (max-width:992px) {
+    
+    #logo-desktop{
+         display: none;
+    }
+
+    #logo-mobile{
+      display:inline ;
+    
+     margin-right: 400px;
+    }
+
+    #logo-mobile img{
+       height: 20px;
+       justify-content:left;
+       padding: 0px;
+      }
+}
