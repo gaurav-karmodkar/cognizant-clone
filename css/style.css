@@ -60,7 +60,7 @@
 
 /* Fixed Background */
 .fixed-bg {
-    background: url('images/parallax-belcan-background.webp') no-repeat center center fixed;
+    background: url('../images/parallax-belcan-background.webp') no-repeat center center fixed;
     background-size: cover;
     height: 550px;
     color: white;
@@ -68,7 +68,7 @@
 }
 
 .fixed-bg2 {
-    background: url('images/fixed\ bg2.png') no-repeat center center fixed;
+    background: url('../images/fixed\ bg2.png') no-repeat center center fixed;
     background-size: cover;
     height: 570px;
     color: white;
