@@ -96,13 +96,17 @@
     overflow: hidden;
     color: white;
     border: none;
+    width: 100%;
+    max-width: 600px;
+    height: 350px; /* Ensures all cards have the same height */
+    display: flex;
+    flex-direction: column;
 }
 
 .card img {
-    filter: brightness(0.6);
+     filter: brightness(0.6);
     width: 100%;
-    height: auto;
-    max-height: 350px;
+    height: 100%; /* Ensures all images take full height of the card */
     object-fit: cover;
 }
 
